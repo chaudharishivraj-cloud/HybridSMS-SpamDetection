@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDEs and editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PyInstaller build
+dist/
+build/
+*.spec
+
+
+
+# Dataset CSV files (prevent accidental upload of training data)
+*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
